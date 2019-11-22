@@ -1,0 +1,23 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* background: grey; */
+  }
+.para{
+    padding: 30px;
+    font-family: sans-serif;
+}
+.heading{
+    color: cyan;
+    padding: 30px,0px,30px,0px;
+}
+.bee{
+    background: grey;
+}
+.tt{
+    padding: 30px;
+    font-family: sans-serif;
+}
+  
+  

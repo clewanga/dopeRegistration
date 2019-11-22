@@ -13,6 +13,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { PostsComponent } from './posts/posts.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
+import { HomeComponent } from './home/home.component';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { SharedModule } from './shared/shared.module';
     RegistrationComponent,
     LoginComponent,
     NotfoundComponent,
-    PostsComponent
+    PostsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { SharedModule } from './shared/shared.module';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    SharedModule
+    SharedModule,
+    HomeModule
   ],
   providers: [RegistrationService],
   bootstrap: [AppComponent]
